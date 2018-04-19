@@ -1,0 +1,259 @@
+/* HTML, Body, General Fonts */
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/circles-light.png");
+    height: 100%;
+}
+
+h1, .logo {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+/* Top Navigation */
+
+.navContainer {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    z-index: 1;
+}
+
+.navContainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topNav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    padding: 28px 50px;
+    color: #fff;
+    background-color: #4aaaa5;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    margin-top: 30px;
+    padding: 0 16px;
+    font-size: 18px;
+    display: inline-block;
+    border-left: 1px solid #ddd;
+}
+
+nav li:last-child {
+    padding-right: 0;
+}
+
+nav li:first-child {
+    border-left: 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #777;
+    ;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+/* Bio Content */
+
+.bioContainer {
+    background-color: #fff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+hr {
+    margin: 29px 0;
+    height: 3px;
+    background-color: #ddd;
+    border: 0;
+}
+
+.bioContent {
+    margin-top: 130px;
+    margin-bottom: 105px;
+    padding: 38px 31px;
+    border: solid 1px #ddd;
+}
+
+.bioPhoto {
+    height: 200px;
+    float: left;
+    margin: 0 25px 25px 0;
+    border: 1px solid #ddd;
+}
+
+p, form {
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 18px;
+    line-height: 1.8em;
+    margin-top: -8px;
+}
+
+/* Contact Content */
+
+.contactWrapper {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 130px;
+    margin-bottom: 105px;
+}
+
+.contactContainer {
+    background-color: #fff;
+    width: 641px;
+    float: left;
+}
+
+hr {
+    margin: 29px 0;
+    height: 3px;
+    background-color: #ddd;
+    border: 0;
+}
+
+.contactContent {
+    padding: 38px 31px;
+    border: solid 1px #ddd;
+}
+
+input {
+    width: 572px;
+    height: 29px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: #ddd;
+    font-size: 13px;
+}
+
+textarea {
+    width: 572px;
+    height: 190px;
+    border: 1px solid #ddd;
+}
+
+.connectContainer {
+    background-color: #fff;
+    width: 266px;
+    height: 200px;
+    border: 1px solid #ddd;
+    float: right;
+}
+
+.connectContent {
+    margin: 29px 30px 0 29px;
+}
+
+.socialMedia {
+    height: 62px;
+    margin-left: 6px;
+}
+
+.marginFix {
+    margin-left: 0px;
+}
+
+.hr2 {
+    height: 2px;
+    background-color: #ddd;
+    border: 0;
+    margin: 21px 0 23px 0;
+}
+
+.contactHeader, .portfolioHeader {
+    color: #4aaaa5;
+}
+
+/* Portfolio Content */
+
+.portfolioWrapper {
+    margin: 0 auto;
+    width: 960px;
+    margin-top: 130px;
+    margin-bottom: 105px;
+}
+
+.portfolioContainer {
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.portfolioContent {
+    padding: 38px 31px 0 31px;
+    border: solid 1px #ddd;
+}
+
+.portfolioContent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projectSet {
+    position: relative;
+    width: 275px;
+    height: 206px;
+    margin: 0 35px 52px 0;
+    float: left;
+}
+
+.projectImage {
+    width: 275px;
+    height: 206px;
+}
+
+.projectCaption {
+    position: absolute;
+    bottom: 9px;
+    background-color: #4aaaa5;
+    width: 275px;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.25em;
+    padding: 21px 0;
+    color: white;
+}
+
+/* Sticky Footer Area */
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 0.8em;
+    background-color: #666;
+    padding: 22px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
