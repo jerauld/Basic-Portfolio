@@ -27,6 +27,7 @@ h3 {
     top: 0;
     width: 100%;
     border-bottom: 2px solid #ccc;
+    z-index: 1;
 }
 
 .navContainer::after {
