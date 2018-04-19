@@ -75,7 +75,6 @@ nav li:first-child {
 a:link, a:visited, a:active {
     text-decoration: none;
     color: #777;
-    ;
 }
 
 a:hover {
