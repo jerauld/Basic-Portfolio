@@ -9,3 +9,9 @@ HW-Wireframe was created for the That Portfolio Though homework assignment for B
 https://julienshim.github.io/Basic-Portfolio/
 
 ## Screenshots
+
+<img src="https://raw.githubusercontent.com/julienshim/Basic-Portfolio/master/assets/images/screenshot-about.png" width="500"/>
+
+<img src="https://raw.githubusercontent.com/julienshim/Basic-Portfolio/master/assets/images/screenshot-portfolio.png" width="500"/>
+
+<img src="https://raw.githubusercontent.com/julienshim/Basic-Portfolio/master/assets/images/screenshot-contact.png" width="500"/>
